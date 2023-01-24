@@ -60,7 +60,7 @@ public class Main {
 			public void actionPerformed(ActionEvent e) {
 				//Nuevo controlador que recibe modelo y vista e inicio del controller
 				controllerManageMovies controller = new controllerManageMovies(new moviesList(), new modelManageMovies());
-				controller.initView();
+				controller.initController();
 			}
 		});
 		
